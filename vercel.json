@@ -1,3 +1,4 @@
+// vercel.json
 {
     "version": 2,
     "framework": null,
@@ -11,7 +12,7 @@
             "dest": "/build/$1"
         },
         {
-            "src": "(.*)",
+            "src": "/(.*)",
             "dest": "/api/index.php"
         }
     ],
@@ -33,7 +34,6 @@
 
         "DB_CONNECTION": "mysql",
         "DB_PORT": "3306",
-        "MYSQL_ATTR_SSL_CA": "/etc/pki/tls/certs/ca-bundle.crt",
-
+        "MYSQL_ATTR_SSL_CA": "/etc/pki/tls/certs/ca-bundle.crt"
     }
 }
