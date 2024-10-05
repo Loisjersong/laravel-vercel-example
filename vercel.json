@@ -2,7 +2,7 @@
     "version": 2,
     "framework": null,
     "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.6.0" }
+        "/api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
     "outputDirectory": "public",
     "routes": [
@@ -35,7 +35,5 @@
         "DB_PORT": "3306",
         "MYSQL_ATTR_SSL_CA": "/etc/pki/tls/certs/ca-bundle.crt",
 
-        "XATA_API_KEY": "xau_Ee2chgH3TLR5JexGcEP7iyLfu9wJUW6P1",
-        "XATA_DB_URL": "https://Lois-Jerson-A-Gonzales-s-workspace-0nb17s.ap-southeast-2.xata.sh/db/laravel-vercel:main"
     }
 }
